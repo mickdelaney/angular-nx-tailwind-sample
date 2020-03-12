@@ -10,5 +10,24 @@
     "tslint.json": "*",
     "nx.json": "*"
   },
-  "projects": {}
+  "projects": {
+    "admin": {
+      "tags": []
+    },
+    "admin-e2e": {
+      "tags": [],
+      "implicitDependencies": [
+        "admin"
+      ]
+    },
+    "web-ui": {
+      "tags": []
+    },
+    "web-ui-e2e": {
+      "tags": [],
+      "implicitDependencies": [
+        "web-ui"
+      ]
+    }
+  }
 }
