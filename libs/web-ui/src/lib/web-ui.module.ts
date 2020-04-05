@@ -4,6 +4,8 @@ import { RouterModule } from '@angular/router';
 import { ShellComponent } from './shell/shell.component';
 import { HeadingComponent } from './heading/heading.component';
 import { ButtonComponent } from './button/button.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 const components = [
   ShellComponent,
@@ -14,10 +16,12 @@ const components = [
 @NgModule({
   imports: [
     CommonModule,
-    RouterModule
+    RouterModule,
+    BrowserAnimationsModule
   ],
   declarations: [
-    ...components
+    ...components,
+    SidebarComponent
   ],
   exports: [
     ...components
