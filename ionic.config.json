@@ -1,0 +1,11 @@
+{
+  "projects": {
+    "candidates": {
+      "name": "app",
+      "integrations": {},
+      "type": "angular",
+      "root": "apps/candidates"
+    }
+  },
+  "defaultProject": "candidates"
+}

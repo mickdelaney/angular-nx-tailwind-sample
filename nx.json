@@ -16,18 +16,21 @@
     },
     "admin-e2e": {
       "tags": [],
-      "implicitDependencies": [
-        "admin"
-      ]
+      "implicitDependencies": ["admin"]
     },
     "web-ui": {
       "tags": []
     },
     "web-ui-e2e": {
       "tags": [],
-      "implicitDependencies": [
-        "web-ui"
-      ]
+      "implicitDependencies": ["web-ui"]
+    },
+    "candidates": {
+      "tags": []
+    },
+    "candidates-e2e": {
+      "tags": [],
+      "implicitDependencies": ["candidates"]
     }
   }
 }
